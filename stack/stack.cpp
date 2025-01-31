@@ -1,7 +1,6 @@
 #include "stack.h"
 #include <iostream>
 #include <cassert>
-#include <cmath>
 
 /**
  * @brief Construct a new Stack:: Stack object
