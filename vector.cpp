@@ -103,6 +103,16 @@ int Vector::at(int pos){
 }
 
 /**
+ * @brief access element at a certain position without checking if the position is valid
+ * 
+ * @param pos 
+ * @return int 
+ */
+int Vector::operator[](int pos){
+        return arr[pos];
+}
+
+/**
  * @brief access to the last element of a vector
  * 
  * @return int 
