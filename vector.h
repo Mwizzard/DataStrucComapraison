@@ -30,6 +30,7 @@ class Vector
         void push_back(int);
         void pop_back();
         int  at(int);
+        int  operator[](int);
         int  back();
         int  cap();
         int  size();
